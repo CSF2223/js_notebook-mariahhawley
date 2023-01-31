@@ -36,14 +36,23 @@ lives= score + 1;
 
 
 
+
 /* ARRAYS: */
+const newEngland = ["New Hampshire", "Vermont", "Maine", "Massachusettes", "Rhode Island", "Connecticut"]
+// index values            0              1         2          3                  4              5
 
+const grades = [91, 100, 88, 95, 75, 98, 100];
+// index values  0    1   2   3   4   5   6
 
-
-
-
+let state = newEngland[2];
+let student = grades[1];
 
 // The Array object has many methods and properties
+newEngland.length;              // Sets or returns the number of elements in an array
+newEngland.push("NewYork");       // Adds new elemnts to the end of an array, and returns the new length
+newEngland.pop();                // Removes new elements to the end of an array, and returns that elemnt 
+newEngland.indexOf("Rhode Island", 0);   // Search the array for an elemnt and returns its position
+
 
 
 
