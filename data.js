@@ -15,26 +15,24 @@ If you think the value of the variable can change, use let.
                 A letter (A-Z or a-z)
                 A dollar sign ($)
                 Or an underscore (_)
-    Subsequent characters may be letters, digits, underscores, or dollar signs.
+    Subsequent characters may be letters, digits, underscores, or dollar signs.num 
 */
 
-
 // Declare variables (without value assignment)
-
-
-
+let scores;
+let lives;
 
 // Initialize variable (declare AND Assign value simultaneously)
-
-
-
-
+var num = 7;
+const ageToVote = 18;       // ageToVote lower camel case
+let x = 5;
+let y = 7;
 
 // Use Variables
 // **Note: An equal sign is used to assign values to variables.
-
-
-
+// " = " means "gets the value of"
+score= num + 3;
+lives= score + 1;
 
 
 
